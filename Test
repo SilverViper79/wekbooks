@@ -1,0 +1,24 @@
+
+### **RACI Matrix for Infrastructure as Code (IaC)**
+
+| **Activity**                                         | **Responsible (R)**        | **Accountable (A)**     | **Consulted (C)**                 | **Informed (I)**                |
+|------------------------------------------------------|----------------------------|-------------------------|-----------------------------------|---------------------------------|
+| **Define IaC architecture and standards**            | Enterprise Architect        | CDO/Product Owner        | Cloud Engineering, Product Teams  | Operations                      |
+| **Develop and write IaC code**                       | Cloud Engineering           | Cloud Engineering Lead   | Product Teams                     | Enterprise Architect, CDO       |
+| **Review IaC code for best practices**               | Cloud Engineering           | Enterprise Architect     | Security, Product Teams           | CDO/Product Owner               |
+| **Integrate IaC into CI/CD pipelines**               | Cloud Engineering           | Cloud Engineering Lead   | Product Teams                     | Enterprise Architect            |
+| **Execute infrastructure deployments**               | Cloud Engineering           | Cloud Engineering Lead   | Product Teams, Enterprise Architect | CDO/Product Owner             |
+| **Monitor infrastructure for compliance**            | Cloud Engineering, Security | Cloud Engineering Lead   | Enterprise Architect              | Product Teams                   |
+| **Apply security policies via Policy as Code**       | Cloud Engineering, Security | Security Lead            | Product Teams                     | CDO/Product Owner, Architect    |
+| **Update and maintain IaC modules/repositories**     | Cloud Engineering           | Cloud Engineering Lead   | Enterprise Architect, Product Teams | CDO/Product Owner              |
+| **Audit and track infrastructure changes**           | Security                    | CDO/Product Owner        | Cloud Engineering, Enterprise Architect | Product Teams              |
+| **Perform security audits and drift detection**      | Cloud Engineering, Security | Security Lead            | Enterprise Architect, Product Teams | CDO/Product Owner              |
+| **Respond to infrastructure incidents**              | Cloud Engineering, Security | Cloud Engineering Lead   | Product Teams, Enterprise Architect | CDO/Product Owner              |
+
+### **Role Definitions**:
+
+- **CDO/Product Owner**: Responsible for overall governance, prioritization, and approval of IaC strategies, ensuring alignment with business goals.
+- **Product Teams**: Provide input on functional requirements, ensure that the IaC meets application and product-specific needs, and remain informed of deployment progress.
+- **Cloud Engineering**: Responsible for developing, maintaining, and deploying IaC, ensuring that it adheres to security and operational standards.
+- **Enterprise Architect**: Accountable for ensuring that the IaC architecture aligns with the broader organizational IT strategy and enterprise-level standards.
+
