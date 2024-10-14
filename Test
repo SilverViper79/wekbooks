@@ -1,67 +1,18 @@
 
-1. **Define IaC Architecture and Standards**  
-   - Responsible (R): Enterprise Architect  
-   - Accountable (A): CDO/Product Owner  
-   - Consulted (C): Product Teams  
-   - Informed (I): Operations  
+---
 
-2. **Develop and Maintain IaC Modules and Templates**  
-   - Responsible (R): CDO/Product Owner  
-   - Accountable (A): CDO/Product Owner  
-   - Consulted (C): Enterprise Architect  
-   - Informed (I): Product Teams  
+### **Technology Resilience and Recovery (TRR)**
 
-3. **Develop and Manage IaC Code for Products**  
-   - Responsible (R): Product Teams  
-   - Accountable (A): Product Teams  
-   - Consulted (C): CDO/Product Owner  
-   - Informed (I): Enterprise Architect, Operations  
+Infrastructure as Code (IaC) is responsible for the provisioning and configuration of infrastructure components, ensuring that they adhere to the organization’s security, compliance, and operational standards. However, since each service or solution has its own specific **Technology Resilience and Recovery (TRR) patterns**, it is essential to refer to the respective TRR patterns for each service or solution deployed using IaC.
 
-4. **Review IaC Code for Best Practices**  
-   - Responsible (R): CDO/Product Owner  
-   - Accountable (A): Enterprise Architect  
-   - Consulted (C): Product Teams  
-   - Informed (I): CDO/Product Owner, Product Teams  
+While IaC ensures automated, consistent provisioning and can integrate high availability and disaster recovery configurations, detailed TRR strategies—such as backup, failover, and recovery mechanisms—are defined and governed by the **specific service’s TRR patterns**. These patterns may include, but are not limited to:
 
-5. **Integrate IaC into CI/CD Pipelines**  
-   - Responsible (R): Product Teams  
-   - Accountable (A): Product Teams  
-   - Consulted (C): CDO/Product Owner, Enterprise Architect  
-   - Informed (I): Enterprise Architect  
+- Multi-region failover strategies
+- Disaster recovery (DR) and business continuity plans
+- Automated failover and scaling mechanisms
+- Backup and recovery processes
 
-6. **Execute Infrastructure Deployments**  
-   - Responsible (R): Product Teams  
-   - Accountable (A): Product Teams  
-   - Consulted (C): CDO/Product Owner  
-   - Informed (I): Enterprise Architect  
+Refer to each **service’s TRR documentation** for the specific configurations and processes that ensure resilience and recovery, as IaC is only responsible for implementing those patterns during the infrastructure provisioning phase.
 
-7. **Monitor Infrastructure for Compliance**  
-   - Responsible (R): CDO/Product Owner, Security  
-   - Accountable (A): CDO/Product Owner  
-   - Consulted (C): Enterprise Architect  
-   - Informed (I): Product Teams  
-
-8. **Apply Security Policies via Policy as Code**  
-   - Responsible (R): CDO/Product Owner, Security  
-   - Accountable (A): Security Lead  
-   - Consulted (C): Product Teams  
-   - Informed (I): Enterprise Architect, Product Teams  
-
-9. **Audit and Track Infrastructure Changes**  
-   - Responsible (R): Security  
-   - Accountable (A): CDO/Product Owner  
-   - Consulted (C): Product Teams, Enterprise Architect  
-   - Informed (I): Operations  
-
-10. **Perform Security Audits and Drift Detection**  
-    - Responsible (R): CDO/Product Owner, Security  
-    - Accountable (A): Security Lead  
-    - Consulted (C): Enterprise Architect, Product Teams  
-    - Informed (I): Product Teams  
-
-11. **Respond to Infrastructure Incidents**  
-    - Responsible (R): Product Teams  
-    - Accountable (A): Product Teams  
-    - Consulted (C): CDO/Product Owner, Security  
-    - Informed (I): CDO/Product Owner, Enterprise Architect  
+---
 
